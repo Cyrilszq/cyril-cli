@@ -1,28 +1,22 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "devDependencies": {
-    "webpack": "^2.2.1",
-    "babel-core": "^6.23.1",
-    "babel-loader": "^6.3.2",
-    "babel-plugin-syntax-dynamic-import": "^6.18.0",
-    "babel-plugin-transform-async-to-generator": "^6.22.0",
-    "babel-plugin-transform-regenerator": "^6.22.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-es2015": "^6.22.0",
-    "css-loader": "^0.26.2",
-    "extract-text-webpack-plugin": "^2.0.0",
-    "html-loader": "^0.4.5",
-    "html-webpack-plugin": "^2.28.0",
-    "rimraf": "^2.6.1",
-    "style-loader": "^0.13.2",
-    "webpack-dev-server": "^2.4.1"
+  "name": "simple-cli",
+  "version": "1.0.0",
+  "description": "a simple cli for writing demo",
+  "bin": {
+    "cyril": "bin/cyril"
   },
   "scripts": {
-    "build": "rimraf dist && webpack -p",
-    "dev": "webpack-dev-server -d --hot --env.dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": ""
+  "keywords": [
+    "cli"
+  ],
+  "author": "Cyrilszq",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  }
 }
