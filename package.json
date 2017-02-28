@@ -1,9 +1,9 @@
 {
-  "name": "simple-cli",
-  "version": "1.0.0",
+  "name": "cyril-cli",
+  "version": "0.1.0",
   "description": "a simple cli for writing demo",
   "bin": {
-    "cyril": "bin/cyril"
+    "cyril": "bin/cyril.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,10 @@
   ],
   "author": "Cyrilszq",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cyrilszq/cyril-cli.git"
+  },
   "dependencies": {
     "chalk": "^1.1.3",
     "co": "^4.6.0",

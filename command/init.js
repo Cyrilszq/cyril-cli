@@ -11,7 +11,8 @@ module.exports = () => {
         let projectName = yield prompt('Project name: ')
         let gitUrl
         let branch
-
+        tplName = tplName || 'normal-template'
+        console.log(tplName)
         if (!config.tpl[tplName]) {
             console.log(chalk.red('\n × Template does not exit!'))
             process.exit()

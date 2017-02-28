@@ -1,5 +1,6 @@
+#!/usr/bin/env node
+
 const path = require('path')
-process.env.NODE_PATH = path.join(__dirname, '../node_modules')
 const program = require('commander')
 
 // 定义当前版本
