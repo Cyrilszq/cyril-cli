@@ -1,6 +1,8 @@
 const config = require('../templates')
 
 module.exports = () => {
-    console.log(config.tpl)
+    for(let name in config.tpl){
+        console.log(name)
+    }
     process.exit()
 }

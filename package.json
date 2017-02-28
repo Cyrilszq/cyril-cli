@@ -1,6 +1,6 @@
 {
   "name": "cyril-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a simple cli for writing demo",
   "bin": {
     "cyril": "bin/cyril.js"
@@ -21,6 +21,7 @@
     "chalk": "^1.1.3",
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "rimraf": "^2.6.1"
   }
 }

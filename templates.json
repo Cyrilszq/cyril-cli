@@ -1,8 +1,1 @@
-{
-  "tpl":{
-    "normal-template":{
-      "url":"https://github.com/Cyrilszq/cyril-cli.git",
-      "branch":"normal-template"
-    }
-  }
-}
+{"tpl":{"normal-template":{"url":"https://github.com/Cyrilszq/cyril-cli.git","branch":"normal-template"}}}

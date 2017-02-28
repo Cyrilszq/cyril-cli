@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const path = require('path')
+
 const program = require('commander')
 
 // 定义当前版本
