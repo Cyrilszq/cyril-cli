@@ -1,6 +1,6 @@
 {
   "name": "cyril-cli",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "a simple cli for writing demo",
   "bin": {
     "cyril": "bin/cyril.js"
