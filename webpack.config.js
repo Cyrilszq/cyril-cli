@@ -8,6 +8,7 @@ module.exports = (options = {}) => {
             main: './src/index.js',
         },
         output: {
+            publicPath: '/',
             filename: options.dev ? '[name].js' : '[chunkhash].[name].js',
             path: path.resolve(__dirname, 'dist')
         },
